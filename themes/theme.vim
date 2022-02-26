@@ -6,7 +6,7 @@ colorscheme onedark "Activa tema onedark
 	set noshowmode
 	
 	let g:lightline = {        
-        \ 'colorscheme': 'wombat',
+        \ 'colorscheme': 'powerline',
         \ 'active': {            
         \   'left': [ [ 'mode', 'paste' ],
         \             [ 'gitbranch', 'readonly', 'filename', 'modified'] ]
