@@ -8,4 +8,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'nvim-treesitter/nvim-treesitter'
 	Plug 'itchyny/lightline.vim'
 	Plug 'tpope/vim-fugitive'
+	Plug 'itchyny/vim-gitbranch'
+	Plug 'akinsho/toggleterm.nvim'
 call plug#end()

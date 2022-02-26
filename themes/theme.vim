@@ -11,8 +11,8 @@ colorscheme onedark "Activa tema onedark
         \   'left': [ [ 'mode', 'paste' ],
         \             [ 'gitbranch', 'readonly', 'filename', 'modified'] ]
         \ },                     
-        \ 'component': {         
-        \   'gitbranch': 'FugitiveHead'
+        \ 'component_function': {         
+        \   'gitbranch': 'gitbranch#name'
         \ },                     
         \ }   
 "------------------------------------------------------------------
